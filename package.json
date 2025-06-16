@@ -1,8 +1,8 @@
 {
   "name": "ecommerce-backend",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
+    "postinstall": "chmod +x ./node_modules/.bin/json-server",
     "start": "npx json-server --watch new.json --port 8080"
   },
   "dependencies": {
